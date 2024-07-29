@@ -6,6 +6,7 @@ It requires the environment variable `TINACIOUS_DESIGN_JWT_SECRET` be set. This 
 
 - [Installation](#installation)
 - [Usage](#usage)
+- [Screenshots](#screenshots)
 - [Development](#development)
 
 
@@ -20,6 +21,24 @@ Install the CLI tool:
 ## Usage
 
 Run the command `portfolio-cli` and fill out the form.
+
+
+## Screenshots
+
+Configuring the link for the client name, e.g. `Acme Ltd`.
+
+![](./screenshots/portfolio-cli-01.png)
+
+After hitting Enter, I can choose which technologies I want to highlight, picking only technologies relevant for the role so as to not overwhelm the recruiter or hiring manager.
+
+![](./screenshots/portfolio-cli-02.png)
+
+This results in a custom link that is valid for 60 days which can be copied to the clipboard, e.g. if you do `portfolio-cli | pbcopy`.
+
+In supported terminal emulators, holding <kbd>Command</kbd> and clicking the link will enable it to open in the default browser.
+
+![](./screenshots/portfolio-cli-03.png)
+
 
 
 ## Development
