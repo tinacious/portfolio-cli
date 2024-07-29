@@ -7,6 +7,7 @@ It requires the environment variable `TINACIOUS_DESIGN_JWT_SECRET` be set. This 
 - [Installation](#installation)
 - [Usage](#usage)
 - [Screenshots](#screenshots)
+	- [Light mode](#light-mode)
 - [Development](#development)
 
 
@@ -38,6 +39,13 @@ This results in a custom link that is valid for 60 days which can be copied to t
 In supported terminal emulators, holding <kbd>Command</kbd> and clicking the link will enable it to open in the default browser.
 
 ![](./screenshots/portfolio-cli-03.png)
+
+
+### Light mode
+
+![](./screenshots/portfolio-cli-04.png)
+![](./screenshots/portfolio-cli-05.png)
+![](./screenshots/portfolio-cli-06.png)
 
 
 
