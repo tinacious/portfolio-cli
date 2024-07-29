@@ -11,7 +11,7 @@ func TinaciousDesignTheme() *huh.Theme {
 
 	var (
 		background = lipgloss.Color("#1d1d26")
-		foreground = lipgloss.Color("#ffffff")
+		foreground = lipgloss.AdaptiveColor{Dark: "#ffffff"}
 		grey       = lipgloss.Color("#b3b3d4")
 		green      = lipgloss.Color("#00d364")
 		blue       = lipgloss.Color("#00bfff")
